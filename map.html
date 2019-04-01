@@ -245,9 +245,7 @@
         var type = $("#select-type").val();
 
         layer.on("click", function(e) {
-          console.log(e);
           var nearest = findNearestWaterFactory(e.latlng.lat, e.latlng.lng);
-          console.log(nearest);
 
           var content = `
                 <strong>${feature.properties.TYPE_2} ${
@@ -298,7 +296,8 @@
           var myIcon = L.icon({
             iconUrl: "red_maker.png",
             iconSize: [40, 40],
-            iconAnchor: [20, 40]
+            iconAnchor: [20, 40],
+            popupAnchor: [0, -20],
           });
 
           if (nearest_maker) {
@@ -309,7 +308,7 @@
           } else {
             nearest_maker = L.marker(nearest.location.split(","), {
               icon: myIcon
-            }).addTo(mymap);
+            }).bindPopup(nearest.name).addTo(mymap);
           }
 
           var popup2 = L.popup();
@@ -331,7 +330,6 @@
       layerGroup.addLayer(geojson);
 
       $("#select-type").change(function() {
-        console.log($("#select-type").val());
         var type = $("#select-type").val();
         switch (type) {
           case "Pb":
@@ -391,11 +389,10 @@
         for (var i = 0; i < factories.length; i++) {
           name = factories[i].name;
           marker_location = factories[i].location;
-          //console.log(name, location);
 
           if (name && marker_location) {
             latlng = marker_location.split(",");
-            var marker = L.marker(latlng).addTo(mymap);
+            var marker = L.marker(latlng).bindPopup(name).addTo(mymap);
             map_markers.push(marker);
           }
         }
