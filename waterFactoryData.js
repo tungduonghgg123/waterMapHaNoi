@@ -306,16 +306,19 @@
             "address": "797 Quang Trung, Phú La, Hà Đông, Hà Nội, Việt Nam"
         },
         {
+            "district": "Hà Đông",
             "name": "Công Ty Nước Sạch Hà Đông",
             "location": "20.9721371,105.7786756",
             "address": "Số 4 Bà Triệu, P. Nguyễn Trãi, Hà Đông, Hà Nội"
         },
         {
+            "district": "Thanh Xuân",
             "name": "Công ty Cổ phần VIWACO",
             "location": "21.0067328,105.8042729",
             "address": "17 Nguyễn Thị Thập, Trung Hoà, Thanh Xuân, Hà Nội"
         },
         {
+            "district": "Thanh Xuân",
             "name": "Công ty Nước sạch Hà Nội",
             "location": "21.0461759,105.8437157",
             "address": "17 Nguyễn Thị Thập, Trung Hoà, Thanh Xuân, Hà Nội"
@@ -344,12 +347,14 @@
         {
             "name": "Xí Nghiệp Thoát Nước Số 4",
             "location": "21.0061967,105.8361151",
-            "address": "1 Phố Lương Định Của, Kim Liên, Đống Đa, Hà Nội"
+            "address": "1 Phố Lương Định Của, Kim Liên, Đống Đa, Hà Nội",
+            "district": "Đống Đa",
         },
         {
             "name": "Xí Nghiệp Kinh Doanh Nước Sạch Đống Đa - Trạm Bơm Tăng Áp Thành Công",
             "location": "21.0228073,105.8140307",
-            "address": "Thành Công, Ba Đình, Hà Nội, Việt Nam"
+            "address": "Thành Công, Ba Đình, Hà Nội, Việt Nam",
+            "district": "Ba Đình"
         },
         {
             "district": "Hoàn Kiếm",
@@ -360,6 +365,7 @@
         {
             "name": "Xí Nghiệp Kinh Doanh Nước Sạch Hoàn Kiếm",
             "location": "21.0190906,105.8596937",
+            "district": "Hoàn Kiếm",
             "address": "8C, Phường Phan Chu Trinh, Quận Hoàn Kiếm, Đường Đinh Công Tráng, Thành Phố Hà Nội, Phan Chu Trinh, Hoàn Kiếm, Hà Nội, Việt Nam"
         },
         {
@@ -371,6 +377,7 @@
         {
             "name": "Xí Nghiệp Kinh Doanh Nước Sạch Cầu Giấy",
             "location": "21.0438754,105.7944042",
-            "address": "121 Nghĩa Tân, Khu tập thể Nghĩa Tân, Cầu Giấy,hn"
+            "address": "121 Nghĩa Tân, Khu tập thể Nghĩa Tân, Cầu Giấy,hn",
+            "district": "Cầu Giấy",
         }
 ]
